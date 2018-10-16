@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 script: ./tester basics 
-=======
-script: ./tester 
->>>>>>> 48e9df37c68a1a7dd04b7dd628130e247ee26876
 language: node_js
 node_js:
   - "node"
