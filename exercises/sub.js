@@ -6,7 +6,12 @@
  * @notions Primitive and Operators, Functions
  */
 
-// Your code :
+// Your code : 
+function sub(sub, rand){
+   let result = 0;
+   result = sub - rand;
+   return result;
+}
 
 //* Begin of tests
 const assert = require('assert')

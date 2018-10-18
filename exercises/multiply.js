@@ -9,7 +9,34 @@
  */
 
 // Your code :
-
+function multiply (x, y){
+    let somme = 0;
+    if (x > 0 && y > 0){
+        for ( let i = 0; x > i ; i++){
+            somme = somme + y;
+        }
+    }
+    else if ( x > 0 && y < 0 ){
+        for ( let i = 0; i < x; i++){
+            somme = somme + y;
+        }
+    }
+    else if ( x < 0 && y > 0){
+        for ( let i = 0; x < i; x++){
+            somme = somme - y;
+        }
+    }
+    else if ( x < 0 && y < 0){
+        for (let i = 0; x < i; x++){
+            somme = somme - y;
+    }
+}
+    else{
+        somme = 0;
+    }
+    return(somme);
+}
+    
 //* Begin of tests
 const assert = require('assert')
 

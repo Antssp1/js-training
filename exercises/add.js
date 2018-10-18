@@ -7,6 +7,12 @@
  */
 
 // Your code :
+function add (add , rand){
+    add = add + add;
+    rand = rand + rand;
+    return add, rand;
+}
+
 
 //* Begin of tests
 const assert = require('assert')
