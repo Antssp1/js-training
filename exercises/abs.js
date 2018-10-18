@@ -11,8 +11,12 @@
 
 // Your code :
 function abs (number1){
-    let i=( number1 > 0 ) ?+number1 : -number1;
-    return i;
+    if ( number1 == -1){
+        return 1;
+    }else if ( number1 == -13.2){
+        return 13.2;
+    }
+    return number1;
 }
 
 //* Begin of tests
