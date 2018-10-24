@@ -10,10 +10,23 @@
  *
  */
 
+function jadenCase(str) 
+{
+str = str.split(" ");
+for (var i = 0; i < str.length; i++) {
+str[i] = str[i][0].toUpperCase() + str[i].substr(1);
+}
+return str.join(" ");
+}
+
+
+
+
+
 
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(jadenCase('coucou hibou'), 'Coucou Hibou')
 // End of tests */
